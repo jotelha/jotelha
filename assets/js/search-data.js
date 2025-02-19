@@ -397,13 +397,6 @@ ninja.data = [{
           window.open("https://github.com/jotelha", "_blank");
         },
       },{
-        id: 'social-gitlab',
-        title: 'GitLab',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://gitlab.com/jotelha", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -430,5 +423,12 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=j9n8S9QAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-wechat_qr',
+        title: 'Wechat_qr',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },];
